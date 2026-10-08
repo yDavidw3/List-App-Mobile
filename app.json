@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "List App",
+    "slug": "list-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "listapp",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E5CBB2",
+        "foregroundImage": "./assets/adaptive-icon.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.ydavidrw.listapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 240,
+          "resizeMode": "contain",
+          "backgroundColor": "#3E2417"
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#D9713C"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "f2b73f94-914c-49dc-b8b4-535416d553ea"
+      }
+    }
+  }
+}
